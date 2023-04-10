@@ -15,7 +15,7 @@ namespace NASABot.Api.Nasa
     {
         /// <summary>
         /// Coronal Mass Ejection (CME)
-        /// https://api.nasa.gov/DONKI/CME?startDate=2020-03-01&endDate=2020-03-29&api_key=wBggKOTD9iACGJLdl93W2cH7d5WdWs6CelkSIAMw
+        /// https://api.nasa.gov/DONKI/CME?startDate=2020-03-01&endDate=2023-04-10&api_key=wBggKOTD9iACGJLdl93W2cH7d5WdWs6CelkSIAMw
         /// </summary>
         /// <returns></returns>
         public async Task<string> GetCoronalMassEjection(string apiKey, DateTime startDate, DateTime endDate)
